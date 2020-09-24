@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="bb242d58-d15b-497e-8b7d-6d2171408a73"
+    Name="6d225a0e-43d0-434d-a2d9-3a6ce97a847a"
     Publisher="O=MyCompany"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="4e51b387-8a87-4449-830a-accbd3cc3cd1" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="eaa78da4-f639-4f2f-a0dc-41adc426321a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>UnoEditor</DisplayName>
