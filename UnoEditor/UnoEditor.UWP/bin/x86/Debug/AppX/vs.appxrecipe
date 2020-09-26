@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>DF473384DBD2AEC921F77FD3E8F7D8968AE88F9B15949FCD91F75B6F1EBD95AC</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>48A7D8EBB622930C2B8B1D5B197EAA1A3092AE7FD6496BFEF7D149B43CAFDD69</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6d225a0e-43d0-434d-a2d9-3a6ce97a847a_1.0.0.0_x86__szrkhpv0a5nk0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6d225a0e-43d0-434d-a2d9-3a6ce97a847a_szrkhpv0a5nk0!App</RegisteredUserModeAppID>
     <RegisteredPackageID>6d225a0e-43d0-434d-a2d9-3a6ce97a847a</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-23T21:31:54.247</Modified>
+      <Modified>2020-09-26T19:19:08.692</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\UnoEditor.exe">
       <PackagePath>entrypoint\UnoEditor.exe</PackagePath>
-      <Modified>2020-09-23T21:31:52.229</Modified>
+      <Modified>2020-09-26T19:19:07.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brody\.nuget\packages\commonservicelocator\2.0.5\lib\netstandard2.0\CommonServiceLocator.dll">
       <PackagePath>CommonServiceLocator.dll</PackagePath>
@@ -133,15 +133,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\UnoEditor.xr.xml">
       <PackagePath>UnoEditor.xr.xml</PackagePath>
-      <Modified>2020-09-23T21:31:51.912</Modified>
+      <Modified>2020-09-26T19:19:07.226</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-23T21:31:51.932</Modified>
+      <Modified>2020-09-26T19:19:07.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\ColorPaletteOverride.xbf">
+      <PackagePath>ColorPaletteOverride.xbf</PackagePath>
+      <Modified>2020-09-26T19:19:07.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-23T21:31:51.933</Modified>
+      <Modified>2020-09-26T19:19:07.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\Editor.xbf">
+      <PackagePath>Views\Editor.xbf</PackagePath>
+      <Modified>2020-09-26T19:19:07.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\Terminal2.xbf">
+      <PackagePath>Views\Terminal2.xbf</PackagePath>
+      <Modified>2020-09-26T19:19:07.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -149,11 +161,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-23T21:31:52.914</Modified>
+      <Modified>2020-09-26T19:14:12.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Core\UnoEditor.exe">
       <PackagePath>UnoEditor.exe</PackagePath>
-      <Modified>2020-09-23T21:31:54.241</Modified>
+      <Modified>2020-09-26T19:19:08.685</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

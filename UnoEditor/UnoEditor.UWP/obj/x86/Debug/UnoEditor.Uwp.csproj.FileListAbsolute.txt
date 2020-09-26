@@ -64,3 +64,16 @@ E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\qualifiers.txt.interme
 E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\ProjectArchitectures.txt
 E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758804200000000.json
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\ColorPaletteOverride.xaml
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\ColorPaletteOverride.xbf
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\Views\Terminal2.g.i.cs
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\Views\Terminal2.g.cs
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\Views\Terminal2.xaml
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\Views\Terminal2.xbf
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\ColorPaletteOverride.xbf
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\Terminal2.xbf
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\Editor.xbf
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\Views\Editor.g.i.cs
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\Views\Editor.g.cs
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\Views\Editor.xaml
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\Views\Editor.xbf
