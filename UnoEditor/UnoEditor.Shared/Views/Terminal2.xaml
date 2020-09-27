@@ -8,6 +8,12 @@
     mc:Ignorable="d"
     d:DesignHeight="300"
     d:DesignWidth="400">
+  <UserControl.Resources>
+    <Style TargetType="TextBox">
+      <Setter Property="Foreground" Value="White"/>
+      <Setter Property="Background" Value="Black"/>
+    </Style>
+  </UserControl.Resources>
 
   <ScrollViewer HorizontalScrollMode="Auto" VerticalScrollBarVisibility="Auto">
     <StackPanel>
@@ -18,7 +24,7 @@
           <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <TextBlock Text="{x:Bind curdir}" Grid.Column="0" x:Name="Terminal"  Width="auto" Height="auto" FontFamily="Consolas" FocusVisualPrimaryBrush="Black" FocusVisualSecondaryBrush="Black" Foreground="White" SelectionHighlightColor="White" IsTextSelectionEnabled="True"/>
-        <TextBox Text="{x:Bind inputbox}" TabIndex="0" Grid.Column="1"  KeyDown="textboxsubmit" x:Name="InputBox" Width="auto" Height="auto" FontFamily="Consolas" AcceptsReturn="False" FocusVisualPrimaryBrush="Black" FocusVisualSecondaryBrush="Black" Foreground="White" SelectionHighlightColor="{x:Null}" BorderBrush="{x:Null}"></TextBox>
+        <TextBox Text="{x:Bind inputbox}" TabIndex="0" Grid.Column="1"  KeyDown="textboxsubmit" x:Name="InputBox" Width="auto" Height="auto" FontFamily="Consolas" AcceptsReturn="False" FocusVisualPrimaryBrush="Black" FocusVisualSecondaryBrush="Black" Foreground="White" SelectionHighlightColor="Black" BorderBrush="{x:Null}" SelectionHighlightColorWhenNotFocused="Black"></TextBox>
       </Grid>
     </StackPanel>
   </ScrollViewer>

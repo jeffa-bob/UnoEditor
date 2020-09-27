@@ -56,7 +56,7 @@ namespace UnoEditor.Shared.Views
     {
       this.InitializeComponent();
       filepath = @"E:\test.js";
-      Readfile();
+      //Readfile();
     }
 
     public void Readfile()

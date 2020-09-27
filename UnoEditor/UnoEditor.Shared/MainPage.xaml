@@ -10,9 +10,11 @@
 
   <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Grid.RowDefinitions>
+      <RowDefinition Height="50"/>
       <RowDefinition Height="*"/>
-      <RowDefinition Height="80"/>
+      <RowDefinition Height="300"/>
     </Grid.RowDefinitions>
+    <Button x:Name="Open" Click="ButtonOpen">Open</Button>
       <Custom:Editor x:Name="editor1" filepath="E:\test.js" Grid.Row="1"/>
       <Custom:Terminal2 Grid.Row="2"/>
   </Grid>

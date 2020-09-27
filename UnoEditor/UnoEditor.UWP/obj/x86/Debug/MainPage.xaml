@@ -10,10 +10,12 @@
 
   <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Grid.RowDefinitions>
+      <RowDefinition Height="50"/>
       <RowDefinition Height="*"/>
-      <RowDefinition Height="80"/>
+      <RowDefinition Height="300"/>
     </Grid.RowDefinitions>
-      <Custom:Editor x:ConnectionId='2' x:Name="editor1" filepath="E:\test.js" Grid.Row="1"/>
+    <Button x:ConnectionId='2' x:Name="Open"                   >Open</Button>
+      <Custom:Editor x:ConnectionId='3' x:Name="editor1" filepath="E:\test.js" Grid.Row="1"/>
       <Custom:Terminal2 Grid.Row="2"/>
   </Grid>
 </Page>
