@@ -9,13 +9,14 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
 
-  <ListView x:ConnectionId='2'                                     >
+  <TextBox x:ConnectionId='2'                         ></TextBox>
+  <!--<ListView ItemsSource="{x:Bind filetextlines}">
     <ListView.ItemTemplate>
-      <DataTemplate x:Name="filelines"                      >
-        <TextBlock x:ConnectionId='3'                 Width="*"/>
+      <DataTemplate x:Name="filelines" x:DataType="x:String">
+        <TextBlock Text="{x:Bind}" HorizontalAlignment="Stretch"/>
       </DataTemplate>
     </ListView.ItemTemplate>
-  </ListView>
+  </ListView>-->
   
 </UserControl>
 

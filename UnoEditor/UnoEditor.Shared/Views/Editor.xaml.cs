@@ -55,12 +55,17 @@ namespace UnoEditor.Shared.Views
     public Editor()
     {
       this.InitializeComponent();
+      filepath = @"E:\test.js";
+      Readfile();
     }
 
     public void Readfile()
     {
-      filetextlines = File.ReadAllLines(filepath).ToList();
-      fulltext = File.ReadAllText(filepath);
+      //filetextlines = File.ReadAllLines(filepath).ToList();
+      using (StreamReader sr = new StreamReader(filepath))
+      {
+        fulltext = sr.ReadToEnd();
+      }
     }
 
     public event PropertyChangedEventHandler PropertyChanged;

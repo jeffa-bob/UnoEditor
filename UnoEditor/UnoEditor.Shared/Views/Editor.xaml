@@ -9,12 +9,13 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
 
-  <ListView ItemsSource="{x:Bind filetextlines}">
+  <TextBox Text="{x:Bind fulltext}"></TextBox>
+  <!--<ListView ItemsSource="{x:Bind filetextlines}">
     <ListView.ItemTemplate>
       <DataTemplate x:Name="filelines" x:DataType="x:String">
-        <TextBlock Text="{x:Bind}" Width="*"/>
+        <TextBlock Text="{x:Bind}" HorizontalAlignment="Stretch"/>
       </DataTemplate>
     </ListView.ItemTemplate>
-  </ListView>
+  </ListView>-->
   
 </UserControl>
