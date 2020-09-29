@@ -114,6 +114,9 @@
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\Editor.xbf">
       <PackagePath>Views\Editor.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\fileview.xbf">
+      <PackagePath>Views\fileview.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\Terminal2.xbf">
       <PackagePath>Views\Terminal2.xbf</PackagePath>
     </AppxPackagedFile>

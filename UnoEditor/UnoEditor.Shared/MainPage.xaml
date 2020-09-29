@@ -14,8 +14,16 @@
       <RowDefinition Height="*"/>
       <RowDefinition Height="300"/>
     </Grid.RowDefinitions>
-    <Button x:Name="Open" Click="ButtonOpen">Open</Button>
-      <Custom:Editor x:Name="editor1" filepath="E:\test.js" Grid.Row="1"/>
-      <Custom:Terminal2 Grid.Row="2"/>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="200"/>
+      <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+    <StackPanel Grid.Column="0" Orientation="Horizontal">
+      <Button x:Name="Open" Grid.Column="0" Click="ButtonOpen">Open</Button>
+      <Button x:Name="OpenFolder" Grid.Column="0" Click="Openfolder">Open Folder</Button>
+    </StackPanel>
+    <Custom:fileview x:Name="fileviewer1" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2"></Custom:fileview>
+    <Custom:Editor x:Name="editor1" Grid.Column="1" filepath="E:\test.js" Grid.Row="1"/>
+    <Custom:Terminal2 Grid.Column="1" Grid.Row="2"/>
   </Grid>
 </Page>

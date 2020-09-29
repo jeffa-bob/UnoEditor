@@ -1,4 +1,0 @@
-E:\Reposs\UnoEditor\UnoEditor\UnoEditor.macOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
-E:\Reposs\UnoEditor\UnoEditor\UnoEditor.macOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
-E:\Reposs\UnoEditor\UnoEditor\UnoEditor.macOS\obj\iPhoneSimulator\Debug\UnoEditor.macOS.csprojAssemblyReference.cache
-E:\Reposs\UnoEditor\UnoEditor\UnoEditor.macOS\obj\iPhoneSimulator\Debug\UnoEditor.macOS.csproj.CoreCompileInputs.cache

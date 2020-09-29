@@ -9,14 +9,14 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
 
-  <TextBox x:ConnectionId='2'                         ></TextBox>
+  <TextBox x:ConnectionId='2' AcceptsReturn="True"                                          FontFamily="Consolas"></TextBox>
   <!--<ListView ItemsSource="{x:Bind filetextlines}">
     <ListView.ItemTemplate>
-      <DataTemplate x:Name="filelines" x:DataType="x:String">
-        <TextBlock Text="{x:Bind}" HorizontalAlignment="Stretch"/>
+      <DataTemplate x:Name="filetextlines" x:DataType="local:line">
+        <TextBox Text="{x:Bind GetTextLine()}" HorizontalAlignment="Stretch"/>
       </DataTemplate>
     </ListView.ItemTemplate>
   </ListView>-->
-  
+
 </UserControl>
 

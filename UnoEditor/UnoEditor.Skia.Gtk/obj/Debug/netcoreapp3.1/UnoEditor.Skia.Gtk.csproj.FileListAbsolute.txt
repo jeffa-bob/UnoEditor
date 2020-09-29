@@ -47,4 +47,3 @@ E:\Reposs\UnoEditor\UnoEditor\UnoEditor.Skia.Gtk\obj\Debug\netcoreapp3.1\UnoEdit
 E:\Reposs\UnoEditor\UnoEditor\UnoEditor.Skia.Gtk\obj\Debug\netcoreapp3.1\UnoEditor.Skia.Gtk.AssemblyInfoInputs.cache
 E:\Reposs\UnoEditor\UnoEditor\UnoEditor.Skia.Gtk\obj\Debug\netcoreapp3.1\UnoEditor.Skia.Gtk.AssemblyInfo.cs
 E:\Reposs\UnoEditor\UnoEditor\UnoEditor.Skia.Gtk\obj\Debug\netcoreapp3.1\UnoEditor.Skia.Gtk.csproj.CopyComplete
-E:\Reposs\UnoEditor\UnoEditor\UnoEditor.Skia.Gtk\obj\Debug\netcoreapp3.1\UnoEditor.Skia.Gtk.csproj.CoreCompileInputs.cache

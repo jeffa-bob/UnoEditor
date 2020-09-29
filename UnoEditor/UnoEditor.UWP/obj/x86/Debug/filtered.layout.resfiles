@@ -10,5 +10,6 @@ ColorPaletteOverride.xbf
 MainPage.xbf
 UnoEditor.xr.xml
 Views\Editor.xbf
+Views\fileview.xbf
 Views\Terminal2.xbf
 Properties\Default.rd.xml

@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using UnoEditor.Shared.Views;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Storage;
@@ -32,7 +34,22 @@ namespace UnoEditor
 
     public async void ButtonOpen(object sender, RoutedEventArgs e)
     {
+      var picker = new Windows.Storage.Pickers.FileOpenPicker();
+      picker.ViewMode = Windows.Storage.Pickers.PickerViewMode.Thumbnail;
+      picker.SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.DocumentsLibrary;
+      picker.FileTypeFilter.Add(".txt");
+      Windows.Storage.StorageFile file = await picker.PickSingleFileAsync();
+      await editor1.Readfile(file);
+    }
 
+    public async void Openfolder(object sender, RoutedEventArgs e)
+    {
+      var picker = new Windows.Storage.Pickers.FolderPicker();
+      picker.ViewMode = Windows.Storage.Pickers.PickerViewMode.Thumbnail;
+      picker.SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.DocumentsLibrary;
+      picker.FileTypeFilter.Add("*");
+      Windows.Storage.StorageFolder folder = await picker.PickSingleFolderAsync();
+      fileviewer1.setdirectory(folder);
     }
   }
 }
