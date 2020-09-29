@@ -1,2 +1,2 @@
 # UnoEditor
-A text editor
+A text editor based on the Uno Platform.
