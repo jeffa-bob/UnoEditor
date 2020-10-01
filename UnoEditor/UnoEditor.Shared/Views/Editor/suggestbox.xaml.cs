@@ -19,9 +19,7 @@ namespace UnoEditor.Shared.Views.Editor
 {
   public class suggest
   {
-    string suggestcode;
-    string title;
-    string desc;
+    public string suggestcode, title, desc;
 
     public suggest(string _suggest, string _title, string _desc)
     {

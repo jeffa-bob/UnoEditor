@@ -86,3 +86,4 @@ E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\qualifiers.txt.interme
 E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\ProjectArchitectures.txt
 E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758804200000000.json
+E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\obj\x86\Debug\UnoEditor.Uwp.csprojAssemblyReference.cache

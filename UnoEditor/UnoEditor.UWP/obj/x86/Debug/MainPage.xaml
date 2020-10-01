@@ -25,15 +25,15 @@
       <Button x:ConnectionId='11' x:Name="Save" Grid.Column="0"                 >Save</Button>
     </StackPanel>
     <Custom:fileview x:ConnectionId='3' x:Name="fileviewer1" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2"></Custom:fileview>
-    <ListView x:ConnectionId='4' ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Auto"
+    <ListView x:ConnectionId='4' CanReorderItems="True" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Auto"
     ScrollViewer.HorizontalScrollMode="Enabled"                  
     ScrollViewer.VerticalScrollMode="Disabled" Grid.Row="0" Grid.Column="1"                                            >
       <ListView.ItemTemplate>
         <DataTemplate                                >
-          <Button x:ConnectionId='6'                                         >
+          <Button x:ConnectionId='6'                                                     >
             <StackPanel Orientation="Horizontal">
-              <TextBlock x:ConnectionId='7'                          Margin="5"></TextBlock>
-              <Button x:ConnectionId='8'                                          >X</Button>
+              <TextBlock x:ConnectionId='7'                                      Margin="5"></TextBlock>
+              <Button x:ConnectionId='8'                                                      >X</Button>
             </StackPanel>
           </Button>
         </DataTemplate>
@@ -44,7 +44,7 @@
         </ItemsPanelTemplate>
       </ListView.ItemsPanel>
     </ListView>
-    <Custom2:texteditor x:ConnectionId='5' x:Name="editor1" Grid.Column="1" Grid.Row="1"/>
+      <Custom2:texteditor x:ConnectionId='5' x:Name="editor1"  Grid.Row="1" Grid.Column="1"/>
     <Custom:Terminal2 Grid.Column="1" Grid.Row="2"/>
   </Grid>
 </Page>

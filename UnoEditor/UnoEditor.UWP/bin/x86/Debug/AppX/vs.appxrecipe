@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-30T23:04:00.479</Modified>
+      <Modified>2020-10-01T02:16:30.752</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\UnoEditor.exe">
       <PackagePath>entrypoint\UnoEditor.exe</PackagePath>
-      <Modified>2020-09-30T23:03:59.674</Modified>
+      <Modified>2020-10-01T02:16:29.940</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brody\.nuget\packages\commonservicelocator\2.0.5\lib\netstandard2.0\CommonServiceLocator.dll">
       <PackagePath>CommonServiceLocator.dll</PackagePath>
@@ -133,35 +133,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\UnoEditor.xr.xml">
       <PackagePath>UnoEditor.xr.xml</PackagePath>
-      <Modified>2020-09-30T23:03:13.022</Modified>
+      <Modified>2020-10-01T02:07:35.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-30T23:03:59.431</Modified>
+      <Modified>2020-10-01T02:07:35.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\ColorPaletteOverride.xbf">
       <PackagePath>ColorPaletteOverride.xbf</PackagePath>
-      <Modified>2020-09-30T23:03:59.431</Modified>
+      <Modified>2020-10-01T02:16:29.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-30T23:03:59.431</Modified>
+      <Modified>2020-10-01T02:07:35.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\Editor\Editor.xbf">
       <PackagePath>Views\Editor\Editor.xbf</PackagePath>
-      <Modified>2020-09-30T23:03:59.431</Modified>
+      <Modified>2020-10-01T02:16:29.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\Editor\suggestbox.xbf">
       <PackagePath>Views\Editor\suggestbox.xbf</PackagePath>
-      <Modified>2020-09-30T23:03:59.431</Modified>
+      <Modified>2020-10-01T02:07:35.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\fileview.xbf">
       <PackagePath>Views\fileview.xbf</PackagePath>
-      <Modified>2020-09-30T23:03:59.431</Modified>
+      <Modified>2020-10-01T02:07:35.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\Terminal2.xbf">
       <PackagePath>Views\Terminal2.xbf</PackagePath>
-      <Modified>2020-09-30T23:03:59.431</Modified>
+      <Modified>2020-10-01T02:07:35.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -169,11 +169,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-30T22:34:53.900</Modified>
+      <Modified>2020-10-01T00:56:52.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Core\UnoEditor.exe">
       <PackagePath>UnoEditor.exe</PackagePath>
-      <Modified>2020-09-30T23:04:00.475</Modified>
+      <Modified>2020-10-01T02:16:30.746</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

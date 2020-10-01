@@ -9,13 +9,5 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
 
-  <RichEditBox x:Name="edit" IsColorFontEnabled="True" IsSpellCheckEnabled="False" IsTextPredictionEnabled="True" AcceptsReturn="True"   FontFamily="Consolas"></RichEditBox>
-  <!--<ListView ItemsSource="{x:Bind filetextlines}">
-    <ListView.ItemTemplate>
-      <DataTemplate x:Name="filetextlines" x:DataType="local:line">
-        <TextBox Text="{x:Bind GetTextLine()}" HorizontalAlignment="Stretch"/>
-      </DataTemplate>
-    </ListView.ItemTemplate>
-  </ListView>-->
-
+  <RichEditBox x:FieldModifier="public" x:Name="edit" IsColorFontEnabled="True" IsSpellCheckEnabled="False" IsTextPredictionEnabled="True" AcceptsReturn="True"   FontFamily="Consolas" BorderBrush="{x:Null}" ContentLinkBackgroundColor="{x:Null}" ContentLinkForegroundColor="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Background="#66000000" SelectionHighlightColor="{x:Null}" SelectionHighlightColorWhenNotFocused="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"></RichEditBox>
 </UserControl>

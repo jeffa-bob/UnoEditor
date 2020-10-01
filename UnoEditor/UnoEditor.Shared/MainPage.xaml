@@ -25,15 +25,15 @@
       <Button x:Name="Save" Grid.Column="0" Click="Savefile">Save</Button>
     </StackPanel>
     <Custom:fileview x:Name="fileviewer1" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2"></Custom:fileview>
-    <ListView ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Auto"
+    <ListView CanReorderItems="True" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Auto"
     ScrollViewer.HorizontalScrollMode="Enabled"                  
     ScrollViewer.VerticalScrollMode="Disabled" Grid.Row="0" Grid.Column="1" ItemsSource="{x:Bind editors, Mode=OneWay}">
       <ListView.ItemTemplate>
         <DataTemplate x:DataType="Custom2:texteditor">
-          <Button Tag="{x:Bind filepath}" Click="Showfile">
+          <Button Tag="{x:Bind Editorclass.filepath}" Click="Showfile">
             <StackPanel Orientation="Horizontal">
-              <TextBlock Text="{x:Bind filename}" Margin="5"></TextBlock>
-              <Button Tag="{x:Bind filepath}" Click="Closefile">X</Button>
+              <TextBlock Text="{x:Bind Editorclass.filename}" Margin="5"></TextBlock>
+              <Button Tag="{x:Bind Editorclass.filepath}" Click="Closefile">X</Button>
             </StackPanel>
           </Button>
         </DataTemplate>
@@ -44,7 +44,9 @@
         </ItemsPanelTemplate>
       </ListView.ItemsPanel>
     </ListView>
-    <Custom2:texteditor x:Name="editor1" Grid.Column="1" Grid.Row="1"/>
+    <Canvas x:Name="canvas">
+      <Custom2:texteditor KeyDown="Keydown" x:Name="editor1"  Grid.Row="1" Grid.Column="1"/>
+    </Canvas>
     <Custom:Terminal2 Grid.Column="1" Grid.Row="2"/>
   </Grid>
 </Page>

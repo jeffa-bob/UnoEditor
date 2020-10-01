@@ -24,6 +24,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\Editor\Editor.xaml.cs">
       <DependentUpon>Editor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Editor\editorclass.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\Editor\Highlights.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\Editor\suggestbox.xaml.cs">
       <DependentUpon>suggestbox.xaml</DependentUpon>

@@ -12,7 +12,15 @@
   <ListView ItemsSource="{x:Bind suggestions}">
     <ListView.ItemTemplate>
       <DataTemplate x:DataType="local:suggest">
-        <Button></Button>
+        <Button>
+          <StackPanel>
+            <TextBlock Text="{x:Bind title}"/>
+            <TextBlock Text="{x:Bind desc}" FontSize="8"/>
+          </StackPanel>
+          <ToolTipService.ToolTip>
+            <TextBlock Text="{x:Bind suggestcode}" FontSize="8"/>
+          </ToolTipService.ToolTip>
+        </Button>
       </DataTemplate>
     </ListView.ItemTemplate>
   </ListView>
