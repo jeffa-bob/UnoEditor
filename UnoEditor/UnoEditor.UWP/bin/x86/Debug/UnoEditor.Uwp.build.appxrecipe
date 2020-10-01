@@ -111,8 +111,11 @@
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\Editor.xbf">
-      <PackagePath>Views\Editor.xbf</PackagePath>
+    <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\Editor\Editor.xbf">
+      <PackagePath>Views\Editor\Editor.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\Editor\suggestbox.xbf">
+      <PackagePath>Views\Editor\suggestbox.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Reposs\UnoEditor\UnoEditor\UnoEditor.UWP\bin\x86\Debug\Views\fileview.xbf">
       <PackagePath>Views\fileview.xbf</PackagePath>
